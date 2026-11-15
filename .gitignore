@@ -3,3 +3,4 @@ results/
 *.csv.gz
 *.zip
 __pycache__/
+output/

@@ -54,10 +54,12 @@ class Data:
         self.root, self.cache = root, {}
 
     def path(self, key):
-        hits = glob.glob(os.path.join(self.root, "**", FILES[key]), recursive=True)
-        if not hits:
-            raise FileNotFoundError("%s not found below %s" % (FILES[key], self.root))
-        return hits[0]
+        # the folder given with -i first, then the usual SANE data locations
+        for root in (self.root, "/source", "/data/sane-data/source"):
+            hits = glob.glob(os.path.join(root, "**", FILES[key]), recursive=True)
+            if hits:
+                return hits[0]
+        raise FileNotFoundError("%s not found below %s" % (FILES[key], self.root))
 
     def get(self, key):
         if key not in self.cache:
