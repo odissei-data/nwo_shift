@@ -1,0 +1,7 @@
+group = Group 7. Whose voice is quoted on mental health?
+source = news
+question = who_speaks
+split_by = gender
+terms = mentale gezondheid, psychisch, ggz, depressie, burn-out
+start = 2015-01-01
+end = 2025-12-31

@@ -1,0 +1,6 @@
+group = Group 4. How long does a migration peak last?
+source = news
+question = issue_decay
+terms = migratie, asiel, vluchteling, statushouder, azc
+start = 2023-01-01
+end = 2023-12-31

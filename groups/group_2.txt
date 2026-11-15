@@ -1,0 +1,7 @@
+group = Group 2. Who speaks about migration?
+source = news
+question = who_speaks
+split_by = actor_type
+terms = migratie, asiel, vluchteling, statushouder, azc
+start = 2015-01-01
+end = 2025-12-31

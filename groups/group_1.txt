@@ -1,0 +1,7 @@
+group = Group 1. When did AI arrive in the news?
+source = news
+question = attention_over_time
+terms = kunstmatige intelligentie, AI, algoritme, chatbot, taalmodel
+start = 2015-01-01
+end = 2025-12-31
+period = month

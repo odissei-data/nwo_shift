@@ -1,0 +1,6 @@
+group = Group 6. Does social media or the press move first on AI?
+source = social
+question = news_vs_social
+terms = kunstmatige intelligentie, AI, algoritme, chatbot, taalmodel
+start = 2022-06-01
+end = 2024-06-30

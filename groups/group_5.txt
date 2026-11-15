@@ -1,0 +1,7 @@
+group = Group 5. Who posts about migration during a peak?
+source = social
+question = who_posts
+split_by = created_year
+terms = migratie, asiel, vluchteling, statushouder, azc
+start = 2023-07-01
+end = 2023-08-15

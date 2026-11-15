@@ -1,0 +1,7 @@
+group = Group 3. Which parts of the country appear in AI coverage?
+source = news
+question = who_speaks
+split_by = province
+terms = kunstmatige intelligentie, AI, algoritme, chatbot, taalmodel
+start = 2015-01-01
+end = 2025-12-31

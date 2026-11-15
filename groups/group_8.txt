@@ -1,0 +1,7 @@
+group = Group 8. Who gets amplified on mental health?
+source = social
+question = who_gets_amplified
+split_by = account_type
+terms = mentale gezondheid, mentalegezondheid, psychisch, ggz, depressie, burn-out
+start = 2015-01-01
+end = 2025-12-31
