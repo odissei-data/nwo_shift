@@ -2,13 +2,13 @@
 
 Measuring public attention in media archives you cannot open, using Blind SANE.
 
-A workshop analysis designed to run in [SURF's Blind SANE](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/96207010/Working+with+Blind+SANE+as+a+researcher) secure analysis environment. It follows the same set-up as [parlspeech-analysis](https://github.com/odissei-data/parlspeech-analysis).
+A workshop analysis designed to run in [SURF's Blind SANE](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/96207010/Working+with+Blind+SANE+as+a+researcher) secure analysis environment. 
 
-The data are two synthetic corpora that stand in for protected collections. One is a news archive of 293,576 Dutch articles from nine fictional outlets. The other is a social media archive of 571,538 short posts from 12,139 fictional accounts. Both cover 2015 to 2025. Everything in them is invented.
+The data are two synthetic corpora that are similar to protected collections. One is a news archive of 293,576 Dutch articles from nine fictional outlets. The other is a social media archive of 571,538 short posts from 12,139 fictional accounts. Both cover 2015 to 2025. Everything in them is invented.
 
 ## How it works
 
-Each group writes one request file in the `groups/` folder. A single run of `script.py` answers every request and returns one report.
+Each group should write one request file in the `groups/` folder. A single run of `script.py` answers every request and returns one report.
 
 A request file looks like this.
 
